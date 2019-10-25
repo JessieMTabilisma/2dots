@@ -2,23 +2,20 @@
   height: 70px;
   width: 100%;
   background-color: rgb(255, 255, 255);
-  // box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.1);
   position: fixed;
   z-index: 999999;
   border-bottom: 0.5px solid #f8f8f8;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   display: flex;
+  flex-shrink: 0;
 }
 img {
   height: 50px;
-  margin: 10px 25px;
+  margin: 10px 0px;
   float: left;
 }
 .subNav {
   position: absolute;
-  .CustomButton {
-    margin: 10px;
-  }
   .hamMenu {
     float: right;
     margin: 20px 45px;
@@ -65,9 +62,6 @@ img {
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
-  img {
-    left: 15px;
-  }
   .subNav {
     right: -20px;
     ul {
@@ -82,13 +76,11 @@ img {
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
-  .subNav {
-    right: -40px;
-  }
   .CustomButton {
     display: none;
   }
   .hamMenu {
     display: block !important;
+    right: 0;
   }
 }

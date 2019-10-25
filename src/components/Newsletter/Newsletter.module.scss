@@ -1,0 +1,41 @@
+.Newsletter {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 35% 40% 25%;
+  margin: 20px 0;
+  text-align: left;
+}
+input {
+  height: 50px;
+  border: 0px;
+  border-bottom: 5px dotted #333333;
+  background-color: transparent;
+  color: #343434;
+  outline: none;
+  width: 80%;
+  font-size: 15px;
+  text-indent: 5px;
+  margin: 20px 0;
+}
+.regButton {
+  height: 60px;
+  width: 80%;
+  position: relative;
+  margin: 20px 50px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .Newsletter {
+    grid-template-columns: none;
+  }
+  .regButton {
+    width: 50%;
+    position: relative;
+    margin: 20px 0px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+}

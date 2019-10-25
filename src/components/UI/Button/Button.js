@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const DotsButton = styled.button`
-  padding: 15px 20px;
+  padding: 20px 20px;
   border: ${props =>
     props.secondary
       ? '2px solid #333333'
@@ -21,6 +21,7 @@ const DotsButton = styled.button`
   text-transform: uppercase;
   font-weight: ${props => (props.secondary ? '800' : '600')};
   font-size: 12px;
+  letter-spacing: 1px;
 `;
 
 export default DotsButton;

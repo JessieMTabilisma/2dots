@@ -1,10 +1,12 @@
 .Backdrop {
   height: calc(100vh - 70px);
-  position: absolute;
+  position: fixed;
   width: 100%;
   margin: 0;
   padding: 0;
   margin-top: 70px;
   text-align: center;
   display: block;
+  background-color: #f8f8f8;
+  z-index: 999999;
 }

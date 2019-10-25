@@ -35,7 +35,7 @@ const navitems = props => {
           <a href="#home">Home</a>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <a href="#projects">Services</a>
         </li>
         <li>
           <a href="#shop">Shop</a>
@@ -44,7 +44,7 @@ const navitems = props => {
           <a href="#ourstory">Our Story</a>
         </li>
         <li>
-          <CustomButton secondary>Contact us</CustomButton>
+          <a href="#contact">Contact us</a>
         </li>
       </ul>
     </Item>
